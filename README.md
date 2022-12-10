@@ -1,1 +1,1 @@
-# minecraft-server-for-google-cloud-shell
+kullanım : setup.sh başlat,kurulum,kurulumsil,konsole
