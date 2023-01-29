@@ -58,7 +58,7 @@ then
     echo "$mc1165 Klasör Oluşturuluyor.."
     mkdir $mc1165
     cp -r ./template/* $mc1165/
-    wget https://api.papermc.io/v2/projects/paper/versions/1.16.5/builds/794/downloads/paper-1.16.5-794.jar -O $mc1165/server.jar
+    wget https://github.com/barkeser2002/minecraft-server-for-google-cloud-shell/raw/main/versions-paper/paper-1.16.5.jar -O $mc1165/server.jar
     sudo chmod 777 ./$mc1165/*
 rm -f ./$mc1165/start.sh
 tee -a ./$mc1165/start.sh <<EOF
@@ -89,7 +89,7 @@ then
     echo "$mc1182 Klasör Oluşturuluyor.."
     mkdir $mc1182
     cp -r ./template/* $mc1182/
-    wget https://api.papermc.io/v2/projects/paper/versions/1.18.2/builds/388/downloads/paper-1.18.2-388.jar -O $mc1182/server.jar
+    wget https://github.com/barkeser2002/minecraft-server-for-google-cloud-shell/raw/main/versions-paper/paper-1.18.2.jar -O $mc1182/server.jar
 rm -f ./$mc1182/start.sh
 tee -a ./$mc1182/start.sh <<EOF
 #!/bin/bash
@@ -119,7 +119,7 @@ then
     echo "$mc1193 Klasör Oluşturuluyor.."
     mkdir $mc1193
     cp -r ./template/* $mc1193/
-    wget https://api.papermc.io/v2/projects/paper/versions/1.19.3/builds/384/downloads/paper-1.19.3-384.jar -O $mc1193/server.jar
+    wget https://github.com/barkeser2002/minecraft-server-for-google-cloud-shell/raw/main/versions-paper/paper-1.19.3.jar -O $mc1193/server.jar
 rm -f ./$mc1193/start.sh
 tee -a ./$mc1193/start.sh <<EOF
 #!/bin/bash
